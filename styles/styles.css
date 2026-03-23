@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -10,7 +17,8 @@ nav a {
 }
 
 h1 {
-    color: darkblue
+    color: black;
+    padding: 20px;
 }
 
 img {
@@ -31,8 +39,15 @@ main {
 
 aside {
     width: 20rem;
+    text-align: center;
     margin: 1rem;
     border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
 }
 
 aside img {
@@ -41,6 +56,7 @@ aside img {
 }
 
 main img {
+    float: right;
     width: 150px;
     height: auto;
 }
@@ -49,4 +65,15 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/*class selecto*/
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/ 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+
 }
