@@ -80,7 +80,7 @@ p {
     margin: 16px;
     padding: 20px;
     max-width: 900px;
-    line-height: 1, 6;
+    line-height: 1;
     background-color: grey;
 }
 
@@ -117,7 +117,7 @@ article {
 }
 
 .hero {
-    position: absolute;
+    position: relative;
 }
 
 .hero img {
@@ -127,7 +127,7 @@ article {
 }
 
 .hero article {
-    position: relative;
+    position: absolute;
 }
 
 .mission {
@@ -161,7 +161,7 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: #264653;
-    color: white;
+    color: rgb(224, 140, 140);
 }
 
 footer img {
