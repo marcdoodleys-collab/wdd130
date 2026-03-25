@@ -1,7 +1,7 @@
 :root {
     --primary-color: #f4a261;
     /* forest green */
-    --secondary-color: #f4a261;
+    --secondary-color: #a87d07;
     /* warm sand */
     --accent1-color: #264653;
     /* dark slate blue */
@@ -102,7 +102,7 @@ nav {
 p {
     margin: 16px;
     padding: 8px;
-    background-color: grey;
+    background-color: var(--secondary-color);
 
 }
 
@@ -114,11 +114,10 @@ section {
 article {
     margin: 16px;
     padding: 8px;
-    position: ;
 }
 
 .hero {
-    position: relative;
+    position: absolute;
 }
 
 .hero img {
