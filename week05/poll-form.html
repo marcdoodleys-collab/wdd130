@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Marc-Doodley SEMETUS">
+    <meta name="description" content="This page tells about a wonderful rafting adventure">
+
+    <title>Poll form</title>
+
+    <link rel="stylesheet" href="styles/rafting2.css">
+</head>
+
+<form>
+    <label for="fullname">Full name:</label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <label for="useremail"> Email</label>
+    <input type="email" id="useremail" name="useremail" required>
+
+    <label for="browser"> Select your favorite internet browser?</label>
+    <select name="browser" id="browser">
+        <option value="chrome">Chrome</option>
+        <option value="firefox">Firefox</option>
+        <option value="edge">Edge</option>
+        <option value="brave">Brave</option>
+        <option value="other">Other</option>
+    </select>
+
+    <label for="pet"> Do you have a household pet?</label>
+    <input type="checkbox" id="pet" name="pet">
+
+    <label for="feedback">List the place you have lived:</label>
+    <textarea id="feedback" name="feedback" rows="4"
+      placeholder="Port-au-prince Haiti, Rio de Janeiro Brasil, California Etats-Unis"></textarea>
+    <button type="submit">Submit Poll</button>
+</form>
